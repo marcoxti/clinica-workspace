@@ -2,5 +2,18 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./api-clinica-e2e"
+    },
+    {
+      "path": "./api-clinica"
+    },
+    {
+      "path": "./web-clinica-e2e"
+    },
+    {
+      "path": "./web-clinica"
+    }
+  ]
 }
